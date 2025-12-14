@@ -1,0 +1,18 @@
+[project]
+name = "mcp_tools_package"
+version = "0.1.0"
+description = "Reusable MCP tools package for ChatGPT agents"
+authors = [
+    {name="Your Name", email="you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "pydantic",
+    "httpx"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
